@@ -50,7 +50,7 @@ searchForm.addEventListener("submit", async (e) => {
     return;
   }
 
-  if (query.trim().toLowerCase() === "rajiv mehta") {
+  if (query.trim().toLowerCase() === "rajiv mehta" || query.trim().toLowerCase() === "rajiv" || query.trim().toLowerCase() === "mehta" ||query.trim().toLowerCase() === "rajivmehta") {
     window.location.href = "profile-mehta.html"; // Redirect to Mehta profile page
     return;
   }
